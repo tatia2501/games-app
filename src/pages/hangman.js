@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import Header from '../hangman/Header';
 import Figure from '../hangman/Figure';
 import WrongLetters from '../hangman/WrongLetters';
@@ -7,10 +7,11 @@ import Popup from '../hangman/Popup';
 import Notification from '../hangman/Notification';
 import { showNotification as show } from '../hangman/helpers';
 import Head from "./Head";
-
 import '../App.css';
 
-const words = ['слово', 'программирование', 'теща', 'виселица'];
+const words = ['слово', 'программирование', 'теща', 'виселица', 'кант', 'хроника', 'зал', 'галера', 'балл', 'вес', 'кафель', 'знак',
+    'фильтр', 'башня', 'кондитер', 'омар', 'чан', 'пламя', 'банк', 'тетерев', 'муж', 'камбала', 'груз', 'кино', 'лаваш', 'калач',
+    'геолог', 'бальзам', 'бревно', 'жердь', 'борец', 'самовар', 'карабин', 'подлокотник'];
 let selectedWord = words[Math.floor(Math.random() * words.length)];
 
 const Hangman = () =>  {
@@ -22,7 +23,7 @@ const Hangman = () =>  {
     useEffect(() => {
         const handleKeydown = event => {
             const { key, keyCode } = event;
-            if (playable && keyCode >= 65 && keyCode <= 90) {
+            if (playable && keyCode >= 33 && keyCode <= 255) {
                 const letter = key.toLowerCase();
                 if (selectedWord.includes(letter)) {
                     if (!correctLetters.includes(letter)) {

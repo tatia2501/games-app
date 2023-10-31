@@ -8,6 +8,7 @@ const Popup = ({correctLetters, wrongLetters, selectedWord, setPlayable, playAga
 
   if( checkWin(correctLetters, wrongLetters, selectedWord) === 'win' ) {
     finalMessage = 'Поздравляю! Вы победили! 😃';
+    finalMessageRevealWord = `слово было: ${selectedWord}`;
     playable = false;
   } else if( checkWin(correctLetters, wrongLetters, selectedWord) === 'lose' ) {
     finalMessage = 'К сожалению, вы проиграли 😕';
