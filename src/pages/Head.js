@@ -10,7 +10,7 @@ const Head = () => {
                     <Link to="/hangman">Виселица</Link>
                 </li>
                 <li>
-                    <Link to="/tic_tac_toe">Крестики-нолики</Link>
+                    <Link to="/tic_tac_toe">Крестики-нолики вдвоем</Link>
                 </li>
             </ul>
         </>
