@@ -6,8 +6,9 @@ import {
   Route,
   Navigate
 } from "react-router-dom";
-import Hangman from "./pages/hangman"
-import Home from "./pages/home"
+import Hangman from './pages/hangman'
+import Home from './pages/home'
+import TicTacToe from './pages/tic_tac_toe'
 function App() {
   return (
       <>
@@ -23,6 +24,11 @@ function App() {
                 path="/hangman"
                 element={<Hangman />}
             />
+              <Route
+                  exact
+                  path="/tic_tac_toe"
+                  element={<TicTacToe />}
+              />
               <Route
                   path="*"
                   element={<Navigate to="/" />}

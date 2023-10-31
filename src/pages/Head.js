@@ -9,6 +9,9 @@ const Head = () => {
                 <li>
                     <Link to="/hangman">Виселица</Link>
                 </li>
+                <li>
+                    <Link to="/tic_tac_toe">Крестики-нолики</Link>
+                </li>
             </ul>
         </>
     )
