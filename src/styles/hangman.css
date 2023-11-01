@@ -24,6 +24,8 @@
     display: flex;
     flex-direction: column;
     text-align: right;
+    color: #F8660C;
+    font-size: x-large;
 }
 
 .wrong-letters-container p {
@@ -44,6 +46,7 @@
 
 .letter {
     border-bottom: 3px solid #685DBE;
+    color: #F8660C;
     display: inline-flex;
     font-size: 30px;
     align-items: center;
@@ -67,8 +70,8 @@
 }
 
 .popup {
-    background: #7CC7BF;
-    color: #0A373C;
+    background: #685DBE;
+    color: #7CC7BF;
     border-radius: 5px;
     box-shadow: 0 15px 10px 3px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -77,8 +80,8 @@
 
 .popup button {
     cursor: pointer;
-    background-color: #F8660C;
-    color: #0A373C;
+    background-color: #7CC7BF;
+    color: #685DBE;
     border: 0;
     margin-top: 20px;
     padding: 12px 20px;

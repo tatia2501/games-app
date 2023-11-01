@@ -4,7 +4,6 @@ const Head = () => {
     return (
         <>
             <h1>Games-app</h1>
-            <br />
             <ul id="navbar">
                 <li className="navbar-link">
                     <Link to="/hangman" className="navbar-text">Виселица</Link>

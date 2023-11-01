@@ -1,12 +1,12 @@
 .App {
     width: 100vw;
-    height: 100vh;
+    height: 200vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 5vh;
-    background-color: #101010;
+    background-color: #7CC7BF;
 }
 
 .winner {
@@ -24,7 +24,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -70%);
-    background-color: rgba(195, 141, 158, 0.863);
+    background-color: rgba(104, 93, 190, 0.863);
     padding: .5rem;
     padding-bottom: 1rem;
     border-radius: 10%;
@@ -34,7 +34,7 @@
     padding: .3em 1em .25em;
     font-weight: 600;
     font-size: 2.5rem;
-    color: white;
+    color: #7CC7BF;
     position: relative;
     text-align: center;
     line-height: 1.3;
@@ -46,11 +46,11 @@
 }
 
 button {
-    background-color: #111827;
+    background-color: #7CC7BF;
     border: 1px solid transparent;
     border-radius: .75rem;
     box-sizing: border-box;
-    color: #FFFFFF;
+    color: #685DBE;
     cursor: pointer;
     flex: 0 0 auto;
     font-size: 1.125rem;
@@ -58,7 +58,6 @@ button {
     line-height: 1.5rem;
     padding: .75rem 1.2rem;
     text-align: center;
-    text-decoration: none #6B7280 solid;
     text-decoration-thickness: auto;
     transition-duration: .2s;
     transition-property: background-color, border-color,
@@ -71,7 +70,7 @@ button {
 }
 
 button:hover {
-    background-color: #374151;
+    background-color: #0A373C;
 }
 
 button:focus {
@@ -88,7 +87,7 @@ button:focus {
 
 :root {
     --board-background: none;
-    --border-color: #f6546a;
+    --border-color: #685DBE;
     --border-thickness: 5px;
 }
 
@@ -108,7 +107,7 @@ button:focus {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: whitesmoke;
+    color: #F8660C;
     font-style: italic;
     font-weight: 700;
     font-size: 6rem;
@@ -155,16 +154,17 @@ button:focus {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    color: whitesmoke;
+    padding: 3px;
 }
 
 .player {
-    border: 2px solid #f6546a;
+    border: 2px solid #685DBE;
     border-radius: 5%;
     padding: .5rem 0;
     display: flex;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     justify-content: center;
     align-items: center;
     width: 10vw;
+    color: #0A373C;
 }

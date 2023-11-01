@@ -9,7 +9,7 @@ body, #root {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 80vh;
+  height: 95vh;
   margin: 0;
   overflow: hidden;
 }
@@ -25,7 +25,7 @@ h1 {
   align-items: center;
   border-top: 1px solid #0A373C;
   border-bottom: 1px solid #0A373C;
-  margin: 10px 0;
+  margin: 20px 0;
   padding-left: 0;
 }
 
