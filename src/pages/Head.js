@@ -5,12 +5,12 @@ const Head = () => {
         <>
             <h1>Games-app</h1>
             <br />
-            <ul>
-                <li>
-                    <Link to="/hangman">Виселица</Link>
+            <ul id="navbar">
+                <li className="navbar-link">
+                    <Link to="/hangman" className="navbar-text">Виселица</Link>
                 </li>
-                <li>
-                    <Link to="/tic_tac_toe">Крестики-нолики вдвоем</Link>
+                <li className="navbar-link">
+                    <Link to="/tic_tac_toe" className="navbar-text">Крестики-нолики вдвоем</Link>
                 </li>
             </ul>
         </>

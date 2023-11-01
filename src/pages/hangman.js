@@ -8,6 +8,7 @@ import Notification from '../hangman/Notification';
 import { showNotification as show } from '../hangman/helpers';
 import Head from "./Head";
 import '../styles/App.css';
+import '../styles/hangman.css'
 
 const words = ['слово', 'программирование', 'теща', 'виселица', 'кант', 'хроника', 'зал', 'галера', 'балл', 'вес', 'кафель', 'знак',
     'фильтр', 'башня', 'кондитер', 'омар', 'чан', 'пламя', 'банк', 'тетерев', 'муж', 'камбала', 'груз', 'кино', 'лаваш', 'калач',
